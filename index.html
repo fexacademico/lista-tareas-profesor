@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>Lista de Tareas</header>
+    <main>
+        <p>Bienvenido, <span id="username"></span>!</p>
+        <input type="text" id="taskInput" placeholder="Nueva tarea">
+        <button onclick="addTask()">Agregar</button>
+        <ul id="taskList"></ul>
+        <p>Visitas en esta sesión: <span id="sessionCount"></span></p>
+    </main>
+    <footer>
+        &copy; 2025 Lista de Tareas. Todos los derechos reservados.
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
